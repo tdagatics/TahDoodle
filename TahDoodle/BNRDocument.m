@@ -10,6 +10,8 @@
 
 @implementation BNRDocument
 
+#pragma mark -  NSDocument Overrides
+
 - (id)init
 {
     self = [super init];
@@ -56,4 +58,10 @@
     return YES;
 }
 
+#pragma mark - Actions
+
+-(void)addTask:(id)sender
+{
+    NSLog(@"Add Task Button Clicked!");
+}
 @end

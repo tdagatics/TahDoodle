@@ -8,7 +8,7 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface BNRDocument : NSDocument
+@interface BNRDocument : NSDocument <NSTableViewDataSource>
 
 @property (nonatomic) NSMutableArray *tasks;
 @property (nonatomic) IBOutlet NSTableView *taskTable;
