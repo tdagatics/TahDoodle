@@ -21,7 +21,7 @@
                 <rect key="frame" x="0.0" y="0.0" width="507" height="413"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Gf9-Gq-mg3">
+                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Gf9-Gq-mg3">
                         <rect key="frame" x="14" y="13" width="98" height="32"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="push" title="Add Task" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Lye-63-02W">
@@ -29,10 +29,10 @@
                             <font key="font" metaFont="system"/>
                         </buttonCell>
                     </button>
-                    <scrollView fixedFrame="YES" autohidesScrollers="YES" horizontalLineScroll="19" horizontalPageScroll="10" verticalLineScroll="19" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VL9-ng-RIq">
+                    <scrollView autohidesScrollers="YES" horizontalLineScroll="19" horizontalPageScroll="10" verticalLineScroll="19" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VL9-ng-RIq">
                         <rect key="frame" x="20" y="52" width="467" height="341"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <clipView key="contentView" ambiguous="YES" misplaced="YES" id="fMq-nv-GHo">
+                        <clipView key="contentView" id="fMq-nv-GHo">
                             <rect key="frame" x="1" y="17" width="465" height="323"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             <subviews>
@@ -75,6 +75,14 @@
                         </tableHeaderView>
                     </scrollView>
                 </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="VL9-ng-RIq" secondAttribute="bottom" constant="52" id="9eP-cj-FYf"/>
+                    <constraint firstAttribute="trailing" secondItem="VL9-ng-RIq" secondAttribute="trailing" constant="20" id="WTM-C7-ONb"/>
+                    <constraint firstItem="VL9-ng-RIq" firstAttribute="leading" secondItem="gIp-Ho-8D9" secondAttribute="leading" constant="20" id="hRR-wY-BAU"/>
+                    <constraint firstAttribute="bottom" secondItem="Gf9-Gq-mg3" secondAttribute="bottom" constant="20" id="l2T-fA-I3z"/>
+                    <constraint firstItem="VL9-ng-RIq" firstAttribute="top" secondItem="gIp-Ho-8D9" secondAttribute="top" constant="20" id="qti-eD-J0e"/>
+                    <constraint firstItem="Gf9-Gq-mg3" firstAttribute="leading" secondItem="gIp-Ho-8D9" secondAttribute="leading" constant="20" id="yAE-wW-4Pq"/>
+                </constraints>
             </view>
             <connections>
                 <outlet property="delegate" destination="-2" id="0bl-1N-x8E"/>
