@@ -62,7 +62,20 @@
 
 -(void)addTask:(id)sender
 {
-    NSLog(@"Add Task Button Clicked!");
+    // If there is no array, create one
+    if (!self.tasks) {
+        self.tasks = [NSMutableArray array];
+    }
+    
+    [self.tasks addObject:@"New Item"];
+    
+    // -reloadData tells the table view to refresh and ask its dataSource (which happens to be this BNRDocument
+    // object in this case) for new data to display
+    [self.taskTable reloadData];
+    
+    // -updateChangeCount: tells the application whether or not the document has unsaved changes, NSChangeDone
+    // flags the document to be saved
+    [self updateChangeCount:NSChangeDone];
 }
 
 #pragma mark - Data Source Methods
