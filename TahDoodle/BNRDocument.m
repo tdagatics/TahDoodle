@@ -64,4 +64,31 @@
 {
     NSLog(@"Add Task Button Clicked!");
 }
+
+#pragma mark - Data Source Methods
+
+-(NSInteger)numberOfRowsInTableView:(NSTableView *)tableView
+{
+    // This table view displays the tasks array so the number of entries in the table view will be
+    // equal to the number of objects in the array
+    return [self.tasks count];
+}
+
+-(id)tableView:(NSTableView *)tableView objectValueForTableColumn:(NSTableColumn *)tableColumn row:(NSInteger)row
+{
+    // Return the item from tasks that corresponds to the cell that the table view wants to display
+    return [self.tasks objectAtIndex:row];
+}
+
+-(void)tableView:(NSTableView *)tableView setObjectValue:(id)object forTableColumn:(NSTableColumn *)tableColumn row:(NSInteger)row
+{
+    // When the user changes a task on the table view, update the tasks array
+    [self.tasks replaceObjectAtIndex:row withObject:object];
+    
+    // And then flag the document as having unsaved changes
+    [self updateChangeCount:NSChangeDone];
+}
+
+
+
 @end
