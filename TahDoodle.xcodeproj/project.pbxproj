@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43B04D4D19E076C200E73486 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43B04D4C19E076C200E73486 /* Cocoa.framework */; };
+		43B04D5719E076C200E73486 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 43B04D5519E076C200E73486 /* InfoPlist.strings */; };
+		43B04D5919E076C200E73486 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B04D5819E076C200E73486 /* main.m */; };
+		43B04D5D19E076C200E73486 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 43B04D5B19E076C200E73486 /* Credits.rtf */; };
+		43B04D6019E076C200E73486 /* BNRDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B04D5F19E076C200E73486 /* BNRDocument.m */; };
+		43B04D6319E076C200E73486 /* BNRDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43B04D6119E076C200E73486 /* BNRDocument.xib */; };
+		43B04D6619E076C200E73486 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43B04D6419E076C200E73486 /* MainMenu.xib */; };
+		43B04D6819E076C200E73486 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43B04D6719E076C200E73486 /* Images.xcassets */; };
+		43B04D6F19E076C200E73486 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43B04D6E19E076C200E73486 /* XCTest.framework */; };
+		43B04D7019E076C200E73486 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43B04D4C19E076C200E73486 /* Cocoa.framework */; };
+		43B04D7819E076C200E73486 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 43B04D7619E076C200E73486 /* InfoPlist.strings */; };
+		43B04D7A19E076C200E73486 /* TahDoodleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B04D7919E076C200E73486 /* TahDoodleTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		43B04D7119E076C200E73486 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43B04D4119E076C200E73486 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43B04D4819E076C200E73486;
+			remoteInfo = TahDoodle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		43B04D4919E076C200E73486 /* TahDoodle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TahDoodle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43B04D4C19E076C200E73486 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		43B04D4F19E076C200E73486 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		43B04D5019E076C200E73486 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		43B04D5119E076C200E73486 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		43B04D5419E076C200E73486 /* TahDoodle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TahDoodle-Info.plist"; sourceTree = "<group>"; };
+		43B04D5619E076C200E73486 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		43B04D5819E076C200E73486 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		43B04D5A19E076C200E73486 /* TahDoodle-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TahDoodle-Prefix.pch"; sourceTree = "<group>"; };
+		43B04D5C19E076C200E73486 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		43B04D5E19E076C200E73486 /* BNRDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNRDocument.h; sourceTree = "<group>"; };
+		43B04D5F19E076C200E73486 /* BNRDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNRDocument.m; sourceTree = "<group>"; };
+		43B04D6219E076C200E73486 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/BNRDocument.xib; sourceTree = "<group>"; };
+		43B04D6519E076C200E73486 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		43B04D6719E076C200E73486 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		43B04D6D19E076C200E73486 /* TahDoodleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TahDoodleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43B04D6E19E076C200E73486 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		43B04D7519E076C200E73486 /* TahDoodleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TahDoodleTests-Info.plist"; sourceTree = "<group>"; };
+		43B04D7719E076C200E73486 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		43B04D7919E076C200E73486 /* TahDoodleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TahDoodleTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43B04D4619E076C200E73486 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43B04D4D19E076C200E73486 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43B04D6A19E076C200E73486 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43B04D7019E076C200E73486 /* Cocoa.framework in Frameworks */,
+				43B04D6F19E076C200E73486 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43B04D4019E076C200E73486 = {
+			isa = PBXGroup;
+			children = (
+				43B04D5219E076C200E73486 /* TahDoodle */,
+				43B04D7319E076C200E73486 /* TahDoodleTests */,
+				43B04D4B19E076C200E73486 /* Frameworks */,
+				43B04D4A19E076C200E73486 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43B04D4A19E076C200E73486 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43B04D4919E076C200E73486 /* TahDoodle.app */,
+				43B04D6D19E076C200E73486 /* TahDoodleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43B04D4B19E076C200E73486 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43B04D4C19E076C200E73486 /* Cocoa.framework */,
+				43B04D6E19E076C200E73486 /* XCTest.framework */,
+				43B04D4E19E076C200E73486 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		43B04D4E19E076C200E73486 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43B04D4F19E076C200E73486 /* AppKit.framework */,
+				43B04D5019E076C200E73486 /* CoreData.framework */,
+				43B04D5119E076C200E73486 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		43B04D5219E076C200E73486 /* TahDoodle */ = {
+			isa = PBXGroup;
+			children = (
+				43B04D5E19E076C200E73486 /* BNRDocument.h */,
+				43B04D5F19E076C200E73486 /* BNRDocument.m */,
+				43B04D6119E076C200E73486 /* BNRDocument.xib */,
+				43B04D6419E076C200E73486 /* MainMenu.xib */,
+				43B04D6719E076C200E73486 /* Images.xcassets */,
+				43B04D5319E076C200E73486 /* Supporting Files */,
+			);
+			path = TahDoodle;
+			sourceTree = "<group>";
+		};
+		43B04D5319E076C200E73486 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				43B04D5419E076C200E73486 /* TahDoodle-Info.plist */,
+				43B04D5519E076C200E73486 /* InfoPlist.strings */,
+				43B04D5819E076C200E73486 /* main.m */,
+				43B04D5A19E076C200E73486 /* TahDoodle-Prefix.pch */,
+				43B04D5B19E076C200E73486 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		43B04D7319E076C200E73486 /* TahDoodleTests */ = {
+			isa = PBXGroup;
+			children = (
+				43B04D7919E076C200E73486 /* TahDoodleTests.m */,
+				43B04D7419E076C200E73486 /* Supporting Files */,
+			);
+			path = TahDoodleTests;
+			sourceTree = "<group>";
+		};
+		43B04D7419E076C200E73486 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				43B04D7519E076C200E73486 /* TahDoodleTests-Info.plist */,
+				43B04D7619E076C200E73486 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43B04D4819E076C200E73486 /* TahDoodle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43B04D7D19E076C200E73486 /* Build configuration list for PBXNativeTarget "TahDoodle" */;
+			buildPhases = (
+				43B04D4519E076C200E73486 /* Sources */,
+				43B04D4619E076C200E73486 /* Frameworks */,
+				43B04D4719E076C200E73486 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TahDoodle;
+			productName = TahDoodle;
+			productReference = 43B04D4919E076C200E73486 /* TahDoodle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		43B04D6C19E076C200E73486 /* TahDoodleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43B04D8019E076C200E73486 /* Build configuration list for PBXNativeTarget "TahDoodleTests" */;
+			buildPhases = (
+				43B04D6919E076C200E73486 /* Sources */,
+				43B04D6A19E076C200E73486 /* Frameworks */,
+				43B04D6B19E076C200E73486 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43B04D7219E076C200E73486 /* PBXTargetDependency */,
+			);
+			name = TahDoodleTests;
+			productName = TahDoodleTests;
+			productReference = 43B04D6D19E076C200E73486 /* TahDoodleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43B04D4119E076C200E73486 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BNR;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Black Rail Capital";
+				TargetAttributes = {
+					43B04D6C19E076C200E73486 = {
+						TestTargetID = 43B04D4819E076C200E73486;
+					};
+				};
+			};
+			buildConfigurationList = 43B04D4419E076C200E73486 /* Build configuration list for PBXProject "TahDoodle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43B04D4019E076C200E73486;
+			productRefGroup = 43B04D4A19E076C200E73486 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43B04D4819E076C200E73486 /* TahDoodle */,
+				43B04D6C19E076C200E73486 /* TahDoodleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43B04D4719E076C200E73486 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43B04D5719E076C200E73486 /* InfoPlist.strings in Resources */,
+				43B04D6819E076C200E73486 /* Images.xcassets in Resources */,
+				43B04D6319E076C200E73486 /* BNRDocument.xib in Resources */,
+				43B04D5D19E076C200E73486 /* Credits.rtf in Resources */,
+				43B04D6619E076C200E73486 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43B04D6B19E076C200E73486 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43B04D7819E076C200E73486 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43B04D4519E076C200E73486 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43B04D5919E076C200E73486 /* main.m in Sources */,
+				43B04D6019E076C200E73486 /* BNRDocument.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43B04D6919E076C200E73486 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43B04D7A19E076C200E73486 /* TahDoodleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43B04D7219E076C200E73486 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43B04D4819E076C200E73486 /* TahDoodle */;
+			targetProxy = 43B04D7119E076C200E73486 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		43B04D5519E076C200E73486 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43B04D5619E076C200E73486 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		43B04D5B19E076C200E73486 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43B04D5C19E076C200E73486 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		43B04D6119E076C200E73486 /* BNRDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43B04D6219E076C200E73486 /* Base */,
+			);
+			name = BNRDocument.xib;
+			sourceTree = "<group>";
+		};
+		43B04D6419E076C200E73486 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43B04D6519E076C200E73486 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		43B04D7619E076C200E73486 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43B04D7719E076C200E73486 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43B04D7B19E076C200E73486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		43B04D7C19E076C200E73486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		43B04D7E19E076C200E73486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TahDoodle/TahDoodle-Prefix.pch";
+				INFOPLIST_FILE = "TahDoodle/TahDoodle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		43B04D7F19E076C200E73486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TahDoodle/TahDoodle-Prefix.pch";
+				INFOPLIST_FILE = "TahDoodle/TahDoodle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		43B04D8119E076C200E73486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TahDoodle.app/Contents/MacOS/TahDoodle";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TahDoodle/TahDoodle-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TahDoodleTests/TahDoodleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		43B04D8219E076C200E73486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TahDoodle.app/Contents/MacOS/TahDoodle";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TahDoodle/TahDoodle-Prefix.pch";
+				INFOPLIST_FILE = "TahDoodleTests/TahDoodleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43B04D4419E076C200E73486 /* Build configuration list for PBXProject "TahDoodle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43B04D7B19E076C200E73486 /* Debug */,
+				43B04D7C19E076C200E73486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43B04D7D19E076C200E73486 /* Build configuration list for PBXNativeTarget "TahDoodle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43B04D7E19E076C200E73486 /* Debug */,
+				43B04D7F19E076C200E73486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		43B04D8019E076C200E73486 /* Build configuration list for PBXNativeTarget "TahDoodleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43B04D8119E076C200E73486 /* Debug */,
+				43B04D8219E076C200E73486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43B04D4119E076C200E73486 /* Project object */;
+}
