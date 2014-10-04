@@ -85,6 +85,21 @@
     [self updateChangeCount:NSChangeDone];
 }
 
+-(void)deleteTask:(id)sender row:(NSInteger)row
+{
+    NSLog(@"Delete task button clicked!");
+    [self.tasks removeObjectAtIndex:row];
+    
+    // -reloadData tells the table view to refresh and ask its dataSource (which happens to be this BNRDocument
+    // object in this case) for new data to display
+    [self.taskTable reloadData];
+    
+    // -updateChangeCount: tells the application whether or not the document has unsaved changes, NSChangeDone
+    // flags the document to be saved
+    [self updateChangeCount:NSChangeDone];
+}
+
+
 #pragma mark - Data Source Methods
 
 -(NSInteger)numberOfRowsInTableView:(NSTableView *)tableView

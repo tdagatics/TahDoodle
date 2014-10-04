@@ -81,10 +81,23 @@
                             <autoresizingMask key="autoresizingMask"/>
                         </tableHeaderView>
                     </scrollView>
+                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="mmg-yO-rUg">
+                        <rect key="frame" x="380" y="13" width="113" height="32"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <buttonCell key="cell" type="push" title="Delete Task" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="wuc-a6-bWh">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="deleteTask:row:" target="-2" id="jOD-qY-O1U"/>
+                        </connections>
+                    </button>
                 </subviews>
                 <constraints>
                     <constraint firstAttribute="bottom" secondItem="VL9-ng-RIq" secondAttribute="bottom" constant="52" id="9eP-cj-FYf"/>
+                    <constraint firstAttribute="bottom" secondItem="mmg-yO-rUg" secondAttribute="bottom" constant="20" id="AdR-zk-TaJ"/>
                     <constraint firstAttribute="trailing" secondItem="VL9-ng-RIq" secondAttribute="trailing" constant="20" id="WTM-C7-ONb"/>
+                    <constraint firstAttribute="trailing" secondItem="mmg-yO-rUg" secondAttribute="trailing" constant="20" id="YIN-yu-256"/>
                     <constraint firstItem="VL9-ng-RIq" firstAttribute="leading" secondItem="gIp-Ho-8D9" secondAttribute="leading" constant="20" id="hRR-wY-BAU"/>
                     <constraint firstAttribute="bottom" secondItem="Gf9-Gq-mg3" secondAttribute="bottom" constant="20" id="l2T-fA-I3z"/>
                     <constraint firstItem="VL9-ng-RIq" firstAttribute="top" secondItem="gIp-Ho-8D9" secondAttribute="top" constant="20" id="qti-eD-J0e"/>
